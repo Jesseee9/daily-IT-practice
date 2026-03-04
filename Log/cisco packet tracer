@@ -1,1 +1,17 @@
+## Week 1 — Networking | Packet Tracer | Single Network with DHCP
+**Date:** 04/03/2026
+**Tool:** Cisco Packet Tracer
+**Session:** Week 1 of 3 — Single Network with DHCP
 
+### What I did:
+- Added a 2911 router, 2960 switch, and 2 PCs to the workspace
+- Connected all devices using straight-through cables
+- Configured GigabitEthernet0/0 on the router with IP 192.168.1.1
+- Set up a DHCP pool on the router (range: 192.168.1.11 onwards)
+- Both PCs set to DHCP — each received an IP automatically
+- Pinged PC2 from PC1 — successful replies confirmed
+
+### Next session (Week 2):
+- Add a DNS server to the existing network
+- Create a basic hostname record
+- Test name resolution alongside ping
