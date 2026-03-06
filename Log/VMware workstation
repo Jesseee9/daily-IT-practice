@@ -1,0 +1,17 @@
+## Week 1 — Active Directory | Windows Server 2022 | User & Group Management
+Date: 06/03/2026
+Tool: VMware — Windows Server 2022 (Corp DC1) + Windows 11 (Client1)
+Session: Week 1 of 3 — User and Group Management
+
+### What I did:
+- Opened Task Manager on Corp DC1 — reviewed CPU (92%), RAM (55%), and running processes
+- Opened Event Viewer — browsed Security and System logs, identified a DNS warning (name resolution timeout for "spar") and understood the cause
+- Reviewed existing OU structure (Finance, HR, IT, Marketing, Sales) with 2 users per OU
+- Created IT Team security group in the IT OU and added IT users as members
+- Practised disabling, enabling, resetting passwords and unlocking user accounts
+- Tested domain login from Client1 — ping to domain confirmed connectivity, domain login troubleshooting ongoing
+
+### Next session (Week 2):
+- Resolve domain login issue on Client1 (verify exact logon names and passwords)
+- Account lifecycle and Event Viewer deeper dive
+- Review Security logs for login attempts
