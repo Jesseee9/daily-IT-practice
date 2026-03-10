@@ -1,0 +1,12 @@
+Domain: PowerShell | AD Automation
+Tasks completed:
+	∙	Reviewed and executed bulk AD user creation script (CSV-driven, OU-targeted, try/catch error handling)
+	∙	Wrote and ran companion cleanup script (Remove-ADUsers.ps1)
+	∙	Verified all 10 users created across 5 department OUs
+	∙	Confirmed duplicate detection and skip logic working correctly
+Scripts saved:
+	∙	C:\Scripts\Create-ADUsers.ps1
+	∙	C:\Scripts\Remove-ADUsers.ps1
+	∙	C:\Scripts\NewUsers.csv
+Key cmdlets practised:
+New-ADUser Remove-ADUser Get-ADUser Import-Csv ConvertTo-SecureString
