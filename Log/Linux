@@ -1,0 +1,13 @@
+Session Log — Linux Week 1 | 11/03/2026
+Domain: Linux | Terminal Fundamentals
+Tasks completed:
+	∙	Navigated file system using pwd, ls, cd
+	∙	Created directory and files using mkdir and nano
+	∙	Read file contents with cat
+	∙	Inspected and modified permissions with ls -l and chmod 755
+	∙	Copied and renamed files using cp and mv
+	∙	Searched file contents with grep
+	∙	Chained commands using pipes
+	∙	Cleaned up session directory with rm -rf
+Key commands practised:
+pwd ls cd mkdir nano cat chmod cp mv grep | rm -rf
