@@ -15,7 +15,7 @@
 | M365 Admin Center | Cloud identity and administration |
 | Azure Portal | Cloud hands-on |
 | Microsoft Learn | Structured cloud modules with sandbox labs |
-
+|TryHackMe | Guided security learning and hands-on attack/defence labs|
 ---
 
 ## Weekly Schedule
@@ -26,7 +26,7 @@
 | Tuesday | Operating System | Windows Server 2022 VM | 30–40 mins |
 | Wednesday | PowerShell | Windows Server 2022 VM | 30–40 mins |
 | Thursday | Linux | Ubuntu VM | 30–40 mins |
-| Friday | Security | Windows Server VM + M365 | 30–40 mins |
+| Friday | Security | TryHackMe | 30–40 mins |
 | Saturday | Cloud | M365 Admin Center + Azure | 30–40 mins |
 | Sunday | Ticketing | ServiceNow PDI | 30–40 mins |
 
