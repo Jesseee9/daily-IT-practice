@@ -100,21 +100,13 @@ Build confidence with the Linux command line through repeated daily use.
 
 ---
 
-### 🔴 Friday — Security
-**Tool:** Windows Server VM + M365 Admin Center + Ubuntu VM
-
-Touch one security area per session and rotate each week.
-
-- Open Event Viewer on Windows Server and filter for failed logins (Event ID 4625)
-- Check Entra ID sign-in logs in M365 for any flagged or unusual activity
-- Review the M365 Secure Score and read through one recommended action
-- Audit file permissions on a test folder in Ubuntu and correct anything too open
-- Rotate weekly:
-  - **Week 1** — Event Viewer and failed login review
-  - **Week 2** — Entra ID sign-in logs
-  - **Week 3** — M365 Secure Score
-  - **Week 4** — Linux permissions audit
-
+🔴 Friday — Security
+Tool: TryHackMe
+Work through the Pre-Security pathway one room per session.
+	∙	Complete one room per Friday session
+	∙	Read properly, don’t rush through for points
+	∙	Rotate through the path in order — no skipping
+	∙	Current path: Pre-Security → SEC0 certification
 ---
 
 ### 🟣 Saturday — Cloud
