@@ -106,7 +106,7 @@ Work through the Pre-Security pathway one room per session.
 	∙	Complete one room per Friday session
 	∙	Read properly, don’t rush through for points
 	∙	Rotate through the path in order — no skipping
-	∙	Current path: Pre-Security → SEC0 certification
+	
 ---
 
 ### 🟣 Saturday — Cloud
