@@ -110,20 +110,11 @@ Work through the Pre-Security pathway one room per session.
 ---
 
 ### 🟣 Saturday — Cloud
-**Tool:** M365 Admin Center + Azure Portal + Microsoft Learn
-
-Rotate between M365 administration, Azure hands-on, and structured learning.
-
-- Check M365 service health across Exchange, SharePoint, and Teams
-- Verify MFA is enforced and review user accounts and licence assignments
-- In Azure, create and delete a resource such as a VM, storage account, or Entra ID user
-- Always delete test resources immediately after to avoid charges
-- On MS Learn weeks, complete one module that includes a hands-on sandbox lab
-- Rotate weekly:
-  - **Week 1** — M365 Admin Center tasks
-  - **Week 2** — Azure hands-on (create and delete resources)
-  - **Week 3** — Microsoft Learn module with sandbox
-
+Tool: M365 Admin Center + Azure Portal
+Rotate between real cloud environments hands-on.
+	∙	Week 1 — Entra ID tasks in GTS M365 tenant (users, MFA, sign-in logs, security settings)
+	∙	Week 2 — Azure Portal hands-on in student portal (create and delete resources)
+	∙	Always delete Azure test resources immediately after to protect student credits
 ---
 
 ### ⚪ Sunday — Ticketing
