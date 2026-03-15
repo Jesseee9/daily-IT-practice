@@ -1,5 +1,5 @@
+# IT Daily Practice Lab
 
-# IT  Daily Practice Lab
 ---
 
 ## Tools
@@ -14,8 +14,8 @@
 | ServiceNow PDI | Ticketing practice |
 | M365 Admin Center | Cloud identity and administration |
 | Azure Portal | Cloud hands-on |
-| Microsoft Learn | Structured cloud modules with sandbox labs |
-|TryHackMe | Guided security learning and hands-on attack/defence labs|
+| TryHackMe | Guided security learning and hands-on labs |
+
 ---
 
 ## Weekly Schedule
@@ -27,7 +27,7 @@
 | Wednesday | PowerShell | Windows Server 2022 VM | 30–40 mins |
 | Thursday | Linux | Ubuntu VM | 30–40 mins |
 | Friday | Security | TryHackMe | 30–40 mins |
-| Saturday | Cloud | M365 Admin Center + Azure | 30–40 mins |
+| Saturday | Cloud | M365 Admin Center + Azure Portal | 30–40 mins |
 | Sunday | Ticketing | ServiceNow PDI | 30–40 mins |
 
 ---
@@ -45,27 +45,29 @@ Build and test basic network setups from scratch each week.
 - Configure DHCP on the router so devices receive IP addresses automatically
 - Add a DNS server and create a basic hostname record
 - Test connectivity between all devices using ping
-- Rotate weekly:
-  - **Week 1** — Single network with DHCP
-  - **Week 2** — Add a DNS server
-  - **Week 3** — Two subnets with inter-subnet routing
+
+**Weekly rotation:**
+- **Week 1** — Single network with DHCP
+- **Week 2** — Add a DNS server
+- **Week 3** — Two subnets with inter-subnet routing
 
 ---
 
 ### 🟢 Tuesday — Operating System
 **Tool:** Windows Server 2022 VM
 
-Practice core Windows Server and Active Directory tasks.
+Practise core Windows Server and Active Directory tasks.
 
 - Open Task Manager and review CPU, RAM, and running processes
 - Open Event Viewer and browse the Security and System logs
 - Create user accounts and place them in the correct Organisational Units
 - Practise disabling, enabling, unlocking, and resetting accounts
 - Log into the Windows 11 VM as a domain user to verify everything works
-- Rotate weekly:
-  - **Week 1** — User and group management
-  - **Week 2** — Account lifecycle and Event Viewer
-  - **Week 3** — Group Policy basics
+
+**Weekly rotation:**
+- **Week 1** — User and group management
+- **Week 2** — Account lifecycle and Event Viewer
+- **Week 3** — Group Policy basics
 
 ---
 
@@ -79,10 +81,11 @@ Write and run scripts that automate Active Directory tasks.
 - Add `try/catch` error handling so the script reports what failed
 - Run a deletion script to clean up all test users when done
 - Save every script to `C:\Scripts` with a clear descriptive filename
-- Rotate weekly:
-  - **Week 1** — Bulk user creation
-  - **Week 2** — OU targeting
-  - **Week 3** — Error handling and summary output
+
+**Weekly rotation:**
+- **Week 1** — Bulk user creation
+- **Week 2** — OU targeting
+- **Week 3** — Error handling and summary output
 
 ---
 
@@ -98,23 +101,35 @@ Build confidence with the Linux command line through repeated daily use.
 - Search inside files using `grep` and chain commands together with pipes
 - Clean up everything created during the session before closing
 
+**Weekly rotation:**
+- **Week 1** — Navigation, files, permissions, grep, pipes
+- **Week 2** — Loops, find, output redirection
+- **Week 3** — User management and file ownership
+- **Week 4** — Basic shell scripting
+
 ---
 
-🔴 Friday — Security
-Tool: TryHackMe
+### 🔴 Friday — Security
+**Tool:** TryHackMe
+
 Work through the Pre-Security pathway one room per session.
-	∙	Complete one room per Friday session
-	∙	Read properly, don’t rush through for points
-	∙	Rotate through the path in order — no skipping
-	
+
+- Complete one room per Friday session
+- Read properly, don't rush through for points
+- Work through the path in order, no skipping
+- Current path: Pre-Security → SEC0 certification
+
 ---
 
 ### 🟣 Saturday — Cloud
-Tool: M365 Admin Center + Azure Portal
+**Tool:** M365 Admin Center + Azure Portal
+
 Rotate between real cloud environments hands-on.
-	∙	Week 1 — Entra ID tasks in GTS M365 tenant (users, MFA, sign-in logs, security settings)
-	∙	Week 2 — Azure Portal hands-on in student portal (create and delete resources)
-	∙	Always delete Azure test resources immediately after to protect student credits
+
+- **Week 1** — Entra ID tasks in GTS M365 tenant (users, MFA, sign-in logs, security settings)
+- **Week 2** — Azure Portal hands-on in student portal (create and delete resources)
+- Always delete Azure test resources immediately after to protect student credits
+
 ---
 
 ### ⚪ Sunday — Ticketing
@@ -125,17 +140,14 @@ Create realistic IT support tickets with proper structure and detail.
 - Log into your ServiceNow PDI
 - Create 3 to 5 incidents covering different issue types
 - For each ticket fill in category, priority, a clear problem description, troubleshooting steps in the work notes, and a resolution note before closing
-- Rotate ticket types weekly:
-  - **Week 1** — Password resets, account lockouts, access issues
-  - **Week 2** — Hardware faults, printer issues, laptop problems
-  - **Week 3** — Email issues, slow performance, software errors
-  - **Week 4** — Network connectivity, VPN, shared drive access
+
+**Weekly rotation:**
+- **Week 1** — Password resets, account lockouts, access issues
+- **Week 2** — Hardware faults, printer issues, laptop problems
+- **Week 3** — Email issues, slow performance, software errors
+- **Week 4** — Network connectivity, VPN, shared drive access
 
 ---
-
-## Repo Structure
-
-
 
 ## Skills Covered
 
@@ -143,5 +155,4 @@ Create realistic IT support tickets with proper structure and detail.
 `Windows Server` `Event Viewer` `PowerShell` `Scripting` `Linux CLI`
 `File Permissions` `Security Monitoring` `Entra ID` `MFA` `M365 Administration`
 `Azure` `Cloud Fundamentals` `ServiceNow` `ITSM` `Incident Management`
-
----
+`TryHackMe` `Offensive Security` `Defensive Security`
