@@ -15,3 +15,29 @@
 - Add a DNS server to the existing network
 - Create a basic hostname record
 - Test name resolution alongside ping
+__
+
+
+Session Log — Networking Week 2 | 18/03/2026
+Domain: Networking | Cisco Packet Tracer
+Tasks completed:
+	∙	Added DNS server to existing Week 1 topology
+	∙	Configured static IP on server (192.168.1.2)
+	∙	Created A Record: corpserver.corp.local → 192.168.1.1
+	∙	Configured DHCP pool on router to push DNS server address
+	∙	Verified DNS server address received on PC1 via ipconfig /all
+	∙	Successfully pinged corpserver.corp.local by hostname from PC1
+Troubleshooting:
+	∙	Ping failed initially — cable connected to wrong switch port
+	∙	One end showing green, other end dead — identified as physical layer fault
+	∙	Reconnected to correct port — both ends green, issue resolved
+Lessons learned:
+	∙	Always check both cable ends show green before troubleshooting further
+	∙	DNS servers require static IPs to function reliably
+	∙	A Records are the foundation of DNS — hostname to IP mapping
+	∙	DNS server address can be pushed via DHCP pool on the router
+	∙	Physical layer is always the first troubleshooting step in networking
+Key commands used:
+enable conf t ip dhcp pool LAN dns-server 192.168.1.2 ipconfig /all ping
+Next session — Week 3:
+	∙	Two subnets with inter-subnet routing
