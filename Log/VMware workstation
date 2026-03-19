@@ -11,7 +11,14 @@ Session: Week 1 of 3 — User and Group Management
 - Practised disabling, enabling, resetting passwords and unlocking user accounts
 - Tested domain login from Client1 — ping to domain confirmed connectivity, domain login troubleshooting ongoing
 
-### Next session (Week 2):
-- Resolve domain login issue on Client1 (verify exact logon names and passwords)
-- Account lifecycle and Event Viewer deeper dive
-- Review Security logs for login attempts
+
+
+Commit message: OS Week 2 — Account Lifecycle & Event Viewer
+Notes:
+	∙	Troubleshot missing AD users — recreated tuser1 in IT OU manually
+	∙	Resolved Client1 domain login issue — confirmed CORP domain sign-in working
+	∙	Completed full account lifecycle: disable, enable, password reset, login verification
+	∙	Explored Event Viewer Security log — filtered and analysed 4625, 4624, 4634 events
+	∙	Identified real 4625 event from svc_mid service account with failure reason and source IP
+	∙	Key Event IDs: 4625 (failed logon), 4624 (success), 4634 (logoff)
+	∙	Next: Week 3 — Group Policy basics
