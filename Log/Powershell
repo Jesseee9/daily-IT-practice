@@ -10,3 +10,20 @@ Scripts saved:
 	∙	C:\Scripts\NewUsers.csv
 Key cmdlets practised:
 New-ADUser Remove-ADUser Get-ADUser Import-Csv ConvertTo-SecureString
+
+---
+
+Commit message: PowerShell Week 2 — OU Targeting
+
+Notes:
+
+	∙	Created NewUsers2.csv with no OU path column (FirstName, LastName, Department, Password)
+	∙	Built Create-ADUsers-OUTarget.ps1 with dynamic path using ￼User.Department)
+	∙	Script automatically places users into correct OUs without hardcoded paths
+	∙	Added try/catch error handling per user
+	∙	Troubleshot CSV file type issue — fixed with Save As → All Files in Notepad
+	∙	All 6 users verified in correct OUs (IT, Finance, HR)
+	∙	Updated Remove-ADUsers script to match new username format and CSV file
+	∙	All 6 users removed cleanly
+	∙	Next: Week 3 — Error handling and summary output
+
