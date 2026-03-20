@@ -1,11 +1,9 @@
 # IT Daily Practice Lab
 
----
-
 ## Tools
 
 | Tool | Purpose |
-|---|---|
+|------|---------|
 | VMware Workstation | Hosts all local virtual machines |
 | Windows Server 2022 VM | Active Directory, PowerShell, OS tasks |
 | Windows 11 Pro VM | Domain client, end-user simulation |
@@ -14,6 +12,8 @@
 | ServiceNow PDI | Ticketing practice |
 | M365 Admin Center | Cloud identity and administration |
 | Azure Portal | Cloud hands-on |
+| SharePoint Online | Collaboration and document management |
+| Power Automate | Workflow automation |
 | TryHackMe | Guided security learning and hands-on labs |
 
 ---
@@ -21,7 +21,7 @@
 ## Weekly Schedule
 
 | Day | Focus | Tool | Time |
-|---|---|---|---|
+|-----|-------|------|------|
 | Monday | Networking | Cisco Packet Tracer | 30–40 mins |
 | Tuesday | Operating System | Windows Server 2022 VM | 30–40 mins |
 | Wednesday | PowerShell | Windows Server 2022 VM | 30–40 mins |
@@ -29,12 +29,12 @@
 | Friday | Security | TryHackMe | 30–40 mins |
 | Saturday | Cloud | M365 Admin Center + Azure Portal | 30–40 mins |
 | Sunday | Ticketing | ServiceNow PDI | 30–40 mins |
+| Flexible | SharePoint | Microsoft 365 Business Basic | 20–30 mins |
+| Flexible | Power Automate | Microsoft 365 Business Basic | 20–30 mins |
 
 ---
 
 ## Daily Tasks
-
----
 
 ### 🔵 Monday — Networking
 **Tool:** Cisco Packet Tracer
@@ -149,10 +149,36 @@ Create realistic IT support tickets with proper structure and detail.
 
 ---
 
+### 🔷 Flexible — SharePoint Online
+**Tool:** Microsoft 365 Business Basic
+**Time:** 20–30 mins | Run anytime — spare evenings or alongside Saturday cloud day
+**Rule:** Always delete everything created at the end of each session
+
+**Weekly rotation:**
+- **Week 1** — Create and structure a site (Team Site, document libraries, file uploads)
+- **Week 2** — Permissions and access (Owner, Member, Visitor levels)
+- **Week 3** — Lists (IT Tickets list, columns, sorting, filtering)
+- **Week 4** — Pages (text, image, link, publish)
+
+---
+
+### 🔶 Flexible — Power Automate
+**Tool:** Microsoft 365 Business Basic
+**Time:** 20–30 mins | Run anytime — spare evenings or pair with SharePoint
+**Rule:** Always delete flows created at the end of each session
+
+**Weekly rotation:**
+- **Week 1** — Your first flow (manual trigger, send email, test and delete)
+- **Week 2** — Automated trigger (SharePoint file upload triggers email notification)
+- **Week 3** — Conditions (if Priority = High send urgent email, else standard email)
+- **Week 4** — Approval flow (file upload triggers approval, outcomes send confirmation)
+
+---
+
 ## Skills Covered
 
-`Networking` `DHCP` `DNS` `Subnetting` `Active Directory` `Group Policy`
-`Windows Server` `Event Viewer` `PowerShell` `Scripting` `Linux CLI`
-`File Permissions` `Security Monitoring` `Entra ID` `MFA` `M365 Administration`
-`Azure` `Cloud Fundamentals` `ServiceNow` `ITSM` `Incident Management`
+`Networking` `DHCP` `DNS` `Subnetting` `Active Directory` `Group Policy` `Windows Server`
+`Event Viewer` `PowerShell Scripting` `Linux CLI` `File Permissions` `Security Monitoring`
+`Entra ID` `MFA` `M365 Administration` `Azure Cloud Fundamentals` `SharePoint Online`
+`Power Automate` `Workflow Automation` `ServiceNow ITSM` `Incident Management`
 `TryHackMe` `Offensive Security` `Defensive Security`
