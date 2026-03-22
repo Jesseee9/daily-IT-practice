@@ -11,3 +11,37 @@ Tasks completed:
 	∙	Cleaned up session directory with rm -rf
 Key commands practised:
 pwd ls cd mkdir nano cat chmod cp mv grep | rm -rf
+
+----
+
+## Linux Week 2 — Loops, find, output redirection
+**Date:** 22/03/2026
+**Tool:** Ubuntu VM — Terminal
+
+### Tasks Completed
+- Created session directory `linuxweek2`
+- Ran `for` loop to print numbers 1–5
+- Used loop with `touch` to create 5 files automatically
+- Used `find` with `*` wildcard to locate all `.txt` files
+- Redirected `find` output into `results.txt` using `>`
+- Read file back with `cat`
+- Combined loop and redirection in a single command
+- Cleaned up with `rm -rf`
+
+### Key Concepts
+- `for` loop — repeats a command for each value automatically
+- `$i` — variable holding the current loop value
+- `touch` — creates an empty file
+- `find` — searches for files by name or type
+- `*` wildcard — matches anything, so `*.txt` means any file ending in .txt
+- `>` output redirection — sends output into a file instead of the screen
+- `cat` — reads a file back to you
+
+### Lessons Learned
+- `~` is a shortcut for your home directory
+- When redirecting `find` results, the output file can appear in its own results
+- Navigate out of a folder with `cd ~` before deleting it
+- Linux commands don't need to be memorised — knowing what to reach for matters more
+
+### Next Session
+Week 3 — User management and file ownership
