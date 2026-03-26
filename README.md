@@ -2,41 +2,44 @@
 
 ## Tools
 
-| Tool | Purpose |
-|------|---------|
-| VMware Workstation | Hosts all local virtual machines |
-| Windows Server 2022 VM | Active Directory, PowerShell, OS tasks |
-| Windows 11 Pro VM | Domain client, end-user simulation |
-| Ubuntu Linux VM | Linux CLI practice |
-| Cisco Packet Tracer | Network simulation |
-| ServiceNow PDI | Ticketing practice |
-| M365 Admin Center | Cloud identity and administration |
-| Azure Portal | Cloud hands-on |
-| SharePoint Online | Collaboration and document management |
-| Power Automate | Workflow automation |
-| TryHackMe | Guided security learning and hands-on labs |
+|Tool                          |Purpose                                   |
+|------------------------------|------------------------------------------|
+|VMware Workstation            |Hosts all local virtual machines          |
+|Windows Server 2022 VM        |Active Directory, PowerShell, OS tasks    |
+|Windows 11 Pro VM             |Domain client, end-user simulation        |
+|Ubuntu Linux VM               |Linux CLI practice                        |
+|Cisco Packet Tracer           |Network simulation                        |
+|ServiceNow PDI                |Ticketing practice                        |
+|M365 Admin Center             |Cloud identity and administration         |
+|Azure Portal                  |Cloud hands-on                            |
+|SharePoint Online             |Collaboration and document management     |
+|Power Automate                |Workflow automation                       |
+|TryHackMe                     |Guided security learning and hands-on labs|
+|VMware BIOS / Online Simulator|BIOS/UEFI configuration practice          |
 
----
+-----
 
 ## Weekly Schedule
 
-| Day | Focus | Tool | Time |
-|-----|-------|------|------|
-| Monday | Networking | Cisco Packet Tracer | 30–40 mins |
-| Tuesday | Operating System | Windows Server 2022 VM | 30–40 mins |
-| Wednesday | PowerShell | Windows Server 2022 VM | 30–40 mins |
-| Thursday | Linux | Ubuntu VM | 30–40 mins |
-| Friday | Security | TryHackMe | 30–40 mins |
-| Saturday | Cloud | M365 Admin Center + Azure Portal | 30–40 mins |
-| Sunday | Ticketing | ServiceNow PDI | 30–40 mins |
-| Flexible | SharePoint | Microsoft 365 Business Basic | 20–30 mins |
-| Flexible | Power Automate | Microsoft 365 Business Basic | 20–30 mins |
+|Day      |Focus           |Tool                                 |Time      |
+|---------|----------------|-------------------------------------|----------|
+|Monday   |Networking      |Cisco Packet Tracer                  |30–40 mins|
+|Tuesday  |Operating System|Windows Server 2022 VM               |30–40 mins|
+|Wednesday|PowerShell      |Windows Server 2022 VM               |30–40 mins|
+|Thursday |Linux           |Ubuntu VM                            |30–40 mins|
+|Friday   |Security        |TryHackMe                            |30–40 mins|
+|Saturday |Cloud           |M365 Admin Center + Azure Portal     |30–40 mins|
+|Sunday   |Ticketing       |ServiceNow PDI                       |30–40 mins|
+|Flexible |SharePoint      |Microsoft 365 Business Basic         |20–30 mins|
+|Flexible |Power Automate  |Microsoft 365 Business Basic         |20–30 mins|
+|Flexible |BIOS/UEFI       |VMware Workstation / Online Simulator|15–20 mins|
 
----
+-----
 
 ## Daily Tasks
 
 ### 🔵 Monday — Networking
+
 **Tool:** Cisco Packet Tracer
 
 Build and test basic network setups from scratch each week.
@@ -47,13 +50,15 @@ Build and test basic network setups from scratch each week.
 - Test connectivity between all devices using ping
 
 **Weekly rotation:**
+
 - **Week 1** — Single network with DHCP
 - **Week 2** — Add a DNS server
 - **Week 3** — Two subnets with inter-subnet routing
 
----
+-----
 
 ### 🟢 Tuesday — Operating System
+
 **Tool:** Windows Server 2022 VM
 
 Practise core Windows Server and Active Directory tasks.
@@ -65,13 +70,15 @@ Practise core Windows Server and Active Directory tasks.
 - Log into the Windows 11 VM as a domain user to verify everything works
 
 **Weekly rotation:**
+
 - **Week 1** — User and group management
 - **Week 2** — Account lifecycle and Event Viewer
 - **Week 3** — Group Policy basics
 
----
+-----
 
 ### 🟡 Wednesday — PowerShell
+
 **Tool:** Windows Server 2022 VM — PowerShell ISE
 
 Write and run scripts that automate Active Directory tasks.
@@ -83,13 +90,15 @@ Write and run scripts that automate Active Directory tasks.
 - Save every script to `C:\Scripts` with a clear descriptive filename
 
 **Weekly rotation:**
+
 - **Week 1** — Bulk user creation
 - **Week 2** — OU targeting
 - **Week 3** — Error handling and summary output
 
----
+-----
 
 ### 🟠 Thursday — Linux
+
 **Tool:** Ubuntu VM — Terminal
 
 Build confidence with the Linux command line through repeated daily use.
@@ -102,26 +111,29 @@ Build confidence with the Linux command line through repeated daily use.
 - Clean up everything created during the session before closing
 
 **Weekly rotation:**
+
 - **Week 1** — Navigation, files, permissions, grep, pipes
 - **Week 2** — Loops, find, output redirection
 - **Week 3** — User management and file ownership
 - **Week 4** — Basic shell scripting
 
----
+-----
 
 ### 🔴 Friday — Security
+
 **Tool:** TryHackMe
 
 Work through the Pre-Security pathway one room per session.
 
 - Complete one room per Friday session
-- Read properly, don't rush through for points
+- Read properly, don’t rush through for points
 - Work through the path in order, no skipping
 - Current path: Pre-Security → SEC0 certification
 
----
+-----
 
 ### 🟣 Saturday — Cloud
+
 **Tool:** M365 Admin Center + Azure Portal
 
 Rotate between real cloud environments hands-on.
@@ -130,9 +142,10 @@ Rotate between real cloud environments hands-on.
 - **Week 2** — Azure Portal hands-on in student portal (create and delete resources)
 - Always delete Azure test resources immediately after to protect student credits
 
----
+-----
 
 ### ⚪ Sunday — Ticketing
+
 **Tool:** ServiceNow Personal Developer Instance
 
 Create realistic IT support tickets with proper structure and detail.
@@ -142,38 +155,58 @@ Create realistic IT support tickets with proper structure and detail.
 - For each ticket fill in category, priority, a clear problem description, troubleshooting steps in the work notes, and a resolution note before closing
 
 **Weekly rotation:**
+
 - **Week 1** — Password resets, account lockouts, access issues
 - **Week 2** — Hardware faults, printer issues, laptop problems
 - **Week 3** — Email issues, slow performance, software errors
 - **Week 4** — Network connectivity, VPN, shared drive access
 
----
+-----
 
 ### 🔷 Flexible — SharePoint Online
-**Tool:** Microsoft 365 Business Basic
-**Time:** 20–30 mins | Run anytime — spare evenings or alongside Saturday cloud day
+
+**Tool:** Microsoft 365 Business Basic  
+**Time:** 20–30 mins | Run anytime — spare evenings or alongside Saturday cloud day  
 **Rule:** Always delete everything created at the end of each session
 
 **Weekly rotation:**
+
 - **Week 1** — Create and structure a site (Team Site, document libraries, file uploads)
 - **Week 2** — Permissions and access (Owner, Member, Visitor levels)
 - **Week 3** — Lists (IT Tickets list, columns, sorting, filtering)
 - **Week 4** — Pages (text, image, link, publish)
 
----
+-----
 
 ### 🔶 Flexible — Power Automate
-**Tool:** Microsoft 365 Business Basic
-**Time:** 20–30 mins | Run anytime — spare evenings or pair with SharePoint
+
+**Tool:** Microsoft 365 Business Basic  
+**Time:** 20–30 mins | Run anytime — spare evenings or pair with SharePoint  
 **Rule:** Always delete flows created at the end of each session
 
 **Weekly rotation:**
+
 - **Week 1** — Your first flow (manual trigger, send email, test and delete)
 - **Week 2** — Automated trigger (SharePoint file upload triggers email notification)
 - **Week 3** — Conditions (if Priority = High send urgent email, else standard email)
 - **Week 4** — Approval flow (file upload triggers approval, outcomes send confirmation)
 
----
+-----
+
+### 🟤 Flexible — BIOS/UEFI
+
+**Tool:** VMware Workstation (VM BIOS) or online BIOS simulator  
+**Time:** 15–20 mins | Run occasionally — no fixed weekly slot  
+**Rule:** Reset any changes before closing the session
+
+**Rotation:**
+
+- **Session 1** — Navigate BIOS menus, identify key settings (boot order, date/time, hardware info)
+- **Session 2** — Change boot order, save and exit, revert after
+- **Session 3** — Explore security settings (passwords, secure boot)
+- **Session 4** — Explore advanced settings (virtualisation, CPU, power options)
+
+-----
 
 ## Skills Covered
 
@@ -181,4 +214,4 @@ Create realistic IT support tickets with proper structure and detail.
 `Event Viewer` `PowerShell Scripting` `Linux CLI` `File Permissions` `Security Monitoring`
 `Entra ID` `MFA` `M365 Administration` `Azure Cloud Fundamentals` `SharePoint Online`
 `Power Automate` `Workflow Automation` `ServiceNow ITSM` `Incident Management`
-`TryHackMe` `Offensive Security` `Defensive Security`
+`TryHackMe` `Offensive Security` `Defensive Security` `BIOS/UEFI Configuration`
