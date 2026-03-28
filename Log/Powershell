@@ -27,3 +27,32 @@ Notes:
 	∙	All 6 users removed cleanly
 	∙	Next: Week 3 — Error handling and summary output
 
+## PowerShell Week 3 — Error Handling and Summary Output
+**Date:** 28/03/2026
+**Tool:** PowerShell ISE (Windows Server 2022)
+
+### Tasks Completed
+- Processed CSV to bulk create/update 10 users across multiple department OUs.
+- Implemented **Idempotency** using an `if/else` logic block.
+- Configured the script to update existing users using `Set-ADUser` instead of failing.
+- Created a summary output table using `[PSCustomObject]` and `Format-Table`.
+
+### Key Concepts
+- **Idempotency:** Scripts that produce the same result regardless of how many times they are run.
+- **Advanced Filtering:** Using `Get-ADUser -Filter "Name -eq '$FullName'"` to detect naming conflicts.
+- **Error Silencing:** Using `-ErrorAction SilentlyContinue` to handle "User Not Found" scenarios gracefully.
+- **Attribute Sync:** Using `Set-ADUser` to update existing object properties.
+
+### Troubleshooting Log
+- **Issue:** Script failed with "An attempt was made to add an object... with a name that is already in use."
+- **Cause:** The `Name` attribute (Display Name) was already present in the OU from previous sessions, even though the `SamAccountName` was unique.
+- **Fix:** Changed the `if` check to filter by the `Name` property to correctly identify existing objects before attempting creation.
+
+### Lessons Learned
+- AD object uniqueness is enforced on the Relative Distinguished Name (RDN) within a container.
+- Always check for an object's existence before attempting a `New-` operation in a production-style script.
+- Reporting the "Status" (Created vs. Updated) is essential for auditing bulk changes.
+
+### Next Session
+Week 1 restart — repeat bulk user creation with deeper understanding.
+
