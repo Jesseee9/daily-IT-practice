@@ -1,0 +1,24 @@
+### BIOS/UEFI Session 1 — Navigation and Identification
+Date: 30 March 2026
+Tool: Lenovo BIOS Simulator (ThinkPad X12 Detachable Gen 1)
+
+#### Tasks Completed
+- Navigated the UEFI BIOS interface using keyboard-only controls
+- Identified `System-unit serial number` and `UEFI BIOS Version`
+- Verified `System Date` and `System Time` accuracy
+- Investigated `Wake On LAN` settings in the Config menu
+- Analysed the `Boot Priority Order` list
+
+#### Key Concepts
+- `Serial Number`: Unique hardware ID used for tracking and support
+- `WOL (Wake On LAN)`: Enabling remote power-on for maintenance
+- `PXE Boot`: Booting from a network server to install operating systems
+- `Windows Boot Manager`: The primary boot entry for modern Windows OS
+
+#### Lessons Learned
+- Synchronised time is critical for secure handshakes between the hardware and OS services like Entra ID
+- PXE booting is the standard for "imaging" multiple machines in an enterprise environment like GTS
+- Navigating BIOS requires understanding keyboard shortcuts (F5/F6 to move items, Arrows to navigate)
+
+#### Next Session
+BIOS/UEFI Session 2 — Changing boot order, saving and exiting, and reverting changes
