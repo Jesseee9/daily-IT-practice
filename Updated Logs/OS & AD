@@ -1,0 +1,25 @@
+### Operating System and Active Directory Week 1 — User & Group Management
+
+Date: March 31, 2026
+Tool: Windows Server 2022 & Windows 11 VMs
+
+Tasks Completed
+* [cite_start]Created three Organizational Units: IT, HR, and Sales.
+* [cite_start]Provisioned three domain user accounts with specific logon names.
+* [cite_start]Created a Global Security Group named 'All_Staff_Group'.
+* [cite_start]Nested all three departmental users into the security group.
+* [cite_start]Verified domain connectivity and user permissions by logging into Windows 11.
+* [cite_start]Decommissioned test objects to maintain lab hygiene.
+
+Key Concepts
+* [cite_start]`Active Directory Users and Computers (ADUC)`: The primary interface for object management.
+* [cite_start]`Organizational Units (OUs)`: Containers used to organize objects and link Group Policies.
+* [cite_start]`Security Groups`: Objects used to assign permissions to multiple users simultaneously.
+* [cite_start]`Domain Authentication`: The process of a client machine validating credentials against a Domain Controller.
+
+Lessons Learned
+* [cite_start]Effective organization in AD simplifies administrative tasks as the environment scales.
+* [cite_start]Testing the end-user experience is a vital part of the provisioning process.
+
+Next Session
+[cite_start]Active Directory Week 2 — Managing account states, handling lockouts, and analyzing Security Logs.
