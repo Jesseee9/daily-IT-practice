@@ -125,7 +125,6 @@ If a room is unfinished continue from where you left off next Friday.
 Skip paid rooms and move to the next free one.
 
 **Current path:** Pre-Security
-**Next path after completion:** SOC Level 1
 
 ---
 
