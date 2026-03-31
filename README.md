@@ -20,6 +20,7 @@ Each session runs 45–60 minutes. All tasks are repeatable by design.
 | Azure Portal | Cloud infrastructure hands-on |
 | TryHackMe | Structured security labs |
 | Microsoft Excel | Incident logging and reporting |
+| Lenovo BIOS Simulator | BIOS/UEFI configuration practice |
 
 ---
 
@@ -37,7 +38,7 @@ Each session runs 45–60 minutes. All tasks are repeatable by design.
 | Flexible | SharePoint Online | M365 Business Basic | 30 mins |
 | Flexible | Power Automate | M365 Business Basic | 30 mins |
 | Flexible | Excel | Microsoft Excel | 30 mins |
-| Flexible | BIOS/UEFI | VMware Workstation | 20 mins |
+| Flexible | BIOS/UEFI | Lenovo BIOS Simulator | 20 mins |
 
 ---
 
@@ -108,7 +109,7 @@ Run `rm -rf ~/practice` before closing.
 | Week 1 | Create 3 subfolders and 3 files. Write content into each file using nano. Read them back with cat. List all contents with ls -l. Navigate between directories using cd and pwd. |
 | Week 2 | Create 3 files. Set permissions 777, 644, and 400 on each using chmod. Read the permission string with ls -l. Attempt to write to the 400 file and observe the denied output. Fix the permission and write to it successfully. |
 | Week 3 | Create a log file with 10 lines of mixed content including the words error, success, and failed. Use grep to search for specific words. Use head -n 3 and tail -n 3. Pipe cat into grep to filter output. Copy one file with cp and rename one with mv. |
-| Week 4 | Create 2 users with useradd. Set a password for each with passwd. Switch between them using su and verify with whoami. Check /etc/passwd to confirm the users exist. Delete both users with userdel. |
+| Week 4 | Create 2 users with sudo useradd. Set a password for each with sudo passwd. Switch between them using su and verify with whoami. Check /etc/passwd to confirm the users exist. Delete both users with sudo userdel. |
 
 After Week 4 restart from Week 1.
 
@@ -123,6 +124,8 @@ Complete as much as fits in the session.
 If a room is unfinished continue from where you left off next Friday.
 Skip paid rooms and move to the next free one.
 
+**Current path:** Pre-Security
+**Next path after completion:** SOC Level 1
 
 ---
 
@@ -135,7 +138,7 @@ Delete everything created before ending each session.
 |---|---|---|
 | Week 1 | M365 Admin Center + Entra ID | Create a user. Assign a licence. Open Entra ID and enforce MFA for the user. Review Security Defaults and confirm they are enabled. Check the Secure Score and read the top recommendation. Open sign-in logs and review recent entries. Delete the user. |
 | Week 2 | Azure Portal | Create a Resource Group. Deploy one resource inside it — a VM or storage account. Navigate the resource settings. Delete the entire Resource Group before logging out. |
-| Week 3 | Exchange Online + M365 Admin Center | Open Exchange Admin Center. Review the existing mail flow rules. Create a shared mailbox and assign a user to it. Check the anti-spam and anti-phishing policies. Verify SPF and DKIM are configured under the domain settings. Delete the shared mailbox. |
+| Week 3 | Exchange Online + M365 Admin Center | Open Exchange Admin Center. Review the existing mail flow rules. Create a shared mailbox and assign a user to it. Check the anti-spam and anti-phishing policies. Verify SPF is configured under domain settings in M365 Admin Center. Open security.microsoft.com and confirm DKIM is enabled under Email Authentication Settings. Delete the shared mailbox. |
 | Week 4 | Entra ID + Azure Portal | Open Entra ID and review the audit logs. Create a test user, assign a role, then delete the user. Open Azure Monitor and review the Activity Log for recent actions in the subscription. |
 
 After Week 4 restart from Week 1.
@@ -209,20 +212,20 @@ Save the file at the end. Review what you built. Close it.
 | Week 3 | Open the Week 1 file. Select the Category and Resolution Time columns. Insert a bar chart showing which categories take longest to resolve. Add a chart title. Move the chart below the table. Add a second sheet called Summary. Copy the COUNTIF and AVERAGE formulas onto the Summary sheet referencing the main table. |
 | Week 4 | Build a new sheet called Asset Log with these columns: Asset ID, Device Type, Assigned To, Department, Serial Number, Status. Enter 6 rows of sample data. Apply a dropdown list to the Status column using Data Validation with options: Active, In Repair, Decommissioned. Filter the table by Department and confirm it works. |
 
-After Week 4 restart from Week 1. Each repeat you will build faster and the formulas will become automatic.
+After Week 4 restart from Week 1.
 
 ---
 
 ### 🟤 BIOS/UEFI
-**Tool:** VMware Workstation | **Time:** 20 mins
-**Rule:** Reset any changes before closing the session.
+**Tool:** Lenovo BIOS Simulator (browser based) | **Time:** 20 mins
+**Rule:** No changes are saved in the simulator. Close the browser when done.
 
 | Session | Task |
 |---|---|
-| Session 1 | Boot a VM and enter BIOS. Navigate all menus. Identify boot order, system date and time, and installed hardware information. Exit without saving. |
-| Session 2 | Enter BIOS. Change the boot order — move a device up and down the list. Save and exit. Re-enter BIOS and revert the boot order to original. Save and exit. |
-| Session 3 | Enter BIOS. Locate the security settings. Identify where a supervisor password would be set. Locate Secure Boot and note whether it is enabled or disabled. Exit without saving. |
-| Session 4 | Enter BIOS. Locate advanced settings — virtualisation, CPU configuration, and power options. Note what each setting does. Exit without saving. |
+| Session 1 | Open the simulator. Navigate to the boot menu. Identify where the boot order is set. Practice moving a USB device to the top of the boot order — this is what you do before reinstalling an OS or running a recovery tool. |
+| Session 2 | Open the simulator. Locate the Security settings. Find Secure Boot and identify how to enable and disable it. Find the TPM setting and note its current state. These are checked when troubleshooting Windows 11 compatibility or BitLocker issues. |
+| Session 3 | Open the simulator. Navigate to Advanced or Configuration settings. Locate the virtualisation setting — Intel VT-x or AMD-V. Note whether it is enabled. This is what you check when VMware or Hyper-V will not run on a machine. |
+| Session 4 | Open the simulator. Navigate to the Information or Main menu. Record the BIOS version, CPU model, installed RAM, and storage devices shown. This is what you check during hardware diagnostics before logging an asset or raising a repair ticket. |
 
 After Session 4 repeat from Session 1.
 
@@ -242,5 +245,5 @@ After Session 4 repeat from Session 1.
 `Azure Portal` `Resource Groups` `Azure Monitor`
 `ServiceNow` `Incident Management` `ITSM`
 `Excel` `Formulas` `Conditional Formatting` `Charts` `Data Validation`
-`BIOS/UEFI` `Boot Configuration` `Secure Boot`
+`BIOS/UEFI` `Boot Configuration` `Secure Boot` `TPM`
 `TryHackMe` `Security Fundamentals` `VMware Workstation`
