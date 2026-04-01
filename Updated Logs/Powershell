@@ -1,0 +1,24 @@
+# PowerShell Week 1 — Bulk User Creation Loop
+
+Date: April 1, 2026
+Tool: Windows Server 2022 — PowerShell ISE
+
+Tasks Completed
+* Wrote `CreateUsers.ps1` to generate 5 AD users via a loop.
+* Implemented `Read-Host -AsSecureString` for secure password entry.
+* Used `ForEach-Object` to iterate through a numerical range (1..5).
+* Created `DeleteUsers.ps1` to automate the removal of test accounts.
+* Verified object creation and deletion in ADUC.
+
+Key Concepts
+* `Secure String`: Encrypted text used for sensitive data like passwords.
+* `Looping`: Repeating a block of code for multiple items or numbers.
+* `Dynamic Variables`: Using `$_` to represent the current item in a pipeline.
+* `Write-Host`: Providing user-facing status updates in the console.
+
+Lessons Learned
+* Scripting ensures consistency; every user is created with the exact same parameters.
+* The `-Confirm:$false` parameter is vital for non-interactive cleanup scripts.
+
+Next Session
+PowerShell Week 2 — Importing users from an external CSV file.
