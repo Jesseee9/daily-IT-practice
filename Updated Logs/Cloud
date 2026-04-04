@@ -1,0 +1,23 @@
+### Cloud & M365 Week 1 — User creation, MFA, Security, Sign-ins
+Date: 04/04/2026
+Tool: M365 Admin Center + Entra ID + Exchange Online
+#### Tasks Completed
+- `Created new user in M365 Admin Center`
+- `Enabled MFA for the user in Entra ID`
+- `Reviewed Security Defaults in Entra ID`
+- `Checked Identity Secure Score top recommendation`
+- `Viewed recent sign-in logs for the user`
+- `Deleted the test user`
+#### Key Concepts
+- User creation and account management
+- MFA enforcement
+- Security Defaults configuration
+- Secure Score recommendations
+- Sign-in log review
+#### Lessons Learned
+- MFA can be enabled without an assigned licence
+- Security Defaults are tenant-wide
+- Secure Score provides actionable risk reduction
+- Sign-in logs detail user activity for auditing
+#### Next Session
+Week 2 — Azure Portal: Resource Group creation, deploy one resource, review settings, delete Resource Group
