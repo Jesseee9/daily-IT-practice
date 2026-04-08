@@ -1,0 +1,20 @@
+
+### Tasks Completed
+- Developed PowerShell script for bulk AD user creation using `Import-Csv`.
+- Configured `-Path` parameter to dynamically assign users to OUs based on CSV data.
+
+### Key Concepts
+- `Import-Csv` for data handling.
+- `New-ADUser` automation.
+- Active Directory Distinguished Name (DN) syntax.
+
+### Troubleshooting Log
+- Issue: Script executed but created no users. 
+- Cause: The `users.csv` file was formatted on a single line, preventing PowerShell from identifying columns. Commands within the loop were also missing proper separators.
+
+### Lessons Learned
+- Data structure in the source file is just as important as the code itself.
+- Verified that `Size on disk: 0 bytes` indicates a file hasn't been saved properly with content.
+
+### Next Session
+- Correct the `users.csv` file layout and verify the creation of John Doe and Jane Smith in their respective OUs.
