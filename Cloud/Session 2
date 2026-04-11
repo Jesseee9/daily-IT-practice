@@ -1,0 +1,16 @@
+### Tasks Completed
+- Created an Azure `Resource Group` to manage lab lifecycle.
+- Deployed a `Storage Account` with `Standard` performance and `LRS` redundancy.
+- Reviewed the `Secure transfer required` setting in the resource configuration.
+- Deleted the `Resource Group` and all associated resources.
+
+### Key Concepts
+- `Resource Groups` as logical containers.
+- `Locally-redundant storage (LRS)` vs Geo-redundant options.
+- `Encryption in transit` via secure transfer settings.
+
+### Lessons Learned
+- Always verify the `Resource Group` deletion is complete to prevent unexpected billing.
+
+### Next Session
+- `Exchange Online` mail flow rules, shared mailboxes, and security policies.
