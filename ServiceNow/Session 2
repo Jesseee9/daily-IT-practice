@@ -1,0 +1,19 @@
+### Tasks Completed
+- `Resolved incident for laptop power failure by replacing faulty power adapter`
+- `Resolved incident for office printer offline by reconnecting loose network cabling`
+- `Resolved incident for undetected monitor by updating display drivers and replacing HDMI cable`
+- `Calculated ticket priority using impact and urgency matrix`
+
+### Key Concepts
+- `ITSM Incident Management`
+- `Hardware Lifecycle Tracking`
+- `Priority Matrix (Impact vs Urgency)`
+- `Work Notes vs Resolution Information`
+
+### Lessons Learned
+- Priority levels must reflect the scale of the disruption to business operations.
+- Detailed `Work notes` prevent redundant troubleshooting in multi-technician environments.
+- Resolving tickets with specific codes helps track recurring hardware failures.
+
+### Next Session
+Week 3	Outlook not opening — profile corrupted. Machine running slowly — high CPU usage. Application throwing an error on launch.
