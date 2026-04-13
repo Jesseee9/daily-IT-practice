@@ -1,0 +1,16 @@
+### Tasks Completed
+- Rebuilt Week 1 topology from scratch (Router, Switch, 3 PCs).
+- Integrated a Server into the LAN with a static IP.
+- Configured DNS Services: Enabled DNS and added an A Record for a custom hostname.
+- Verified connectivity and name resolution via PC web browser and pinging the hostname.
+
+### Key Concepts
+- `Server Administration`
+- `DNS (Domain Name System)`
+- `A Records`
+- `Static vs Dynamic Addressing`
+
+### Lessons Learned
+- DNS acts as a translator between human-readable names and machine-readable IP addresses.
+- For DNS to work, end devices must have the Server's IP listed in their 'DNS Server' configuration field.
+- Building from scratch reinforces CLI muscle memory and logical flow.
