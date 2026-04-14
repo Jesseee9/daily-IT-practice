@@ -1,0 +1,18 @@
+### Tasks Completed
+- Created and linked a GPO to the IT OU in Group Policy Management.
+- Configured "Prevent access to the command prompt" in Administrative Templates.
+- Performed gpupdate /force on Windows 11 client.
+- Verified policy enforcement on the end-user simulation.
+- Deleted GPO and test users to maintain lab environment.
+
+### Key Concepts
+- Active Directory Group Policy Objects (GPOs).
+- User Configuration vs. Computer Configuration.
+- Policy propagation and manual refresh commands.
+
+### Lessons Learned
+- Linking a GPO to an OU ensures the policy only affects the specific subset of users within that container.
+- Verification on the client side is a critical step in IT support to ensure server-side changes are functional.
+
+### Next Session
+- Tuesday: Operating System and Active Directory - Week 4 (System Monitoring and Event Viewer).
